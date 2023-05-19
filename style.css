@@ -11,66 +11,41 @@ html{
 .container{
     height: 100vh;
     width: 63%;
-    background-color: #caf0f8;
+    background-color: #F1F6F9;
     font-family: 'Roboto', sans-serif;
+    color: #212A3E;
     float: left;
     position: relative;
     text-align: center;
 }
 
-.SegundaPantalla{
-    height: 100vh;
-    width: 63%;
-    background-color: #caf0f8;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    float: right;
+
+
+.container .titulo{
+    
+    color: #394867;
+}
+
+.container .subtitulo{
+    color: #394867;
+}
+
+
+
+.container .busqueda{
+    height: 60px;
+    width: 200px;
+    right: 20%;
+    bottom: 40%;
+    z-index: 10%;
     text-align: center;
-    
-    padding: 60px 0px;
-}
-
-.Imagen{
-    float: right;
-    height: 100vh;
-    width: 37%;
-    background-color: #90E0EF;
-}
-
-.Imagen .fondo-emp{
-    position: absolute;
-    height: 650px;
-    width: 500px;
-    right: 0%;
-    bottom: 0%;
-    
-}
-
-
-
-ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 25px 56px;
-    font-size: 2rem;
-    cursor: pointer;
-    height: auto;
-    width: auto;
-    transition: all 0.3s ease 0s;
-    
-}
-
-
-ul li:hover{
-    border-radius: 40px;
-    background-color: #90E0EF;
-    color: #ffff;
 }
 
 header{
     position: absolute;
-    bottom: 20%;
+    bottom: 22%;
     padding: 0 50px;
+    justify-content: center;
 }
 
 header h1{
@@ -91,6 +66,72 @@ header p{
 
 }
 
+header button{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+header button .pueblo{
+    color: #E3F2C1;
+    
+}
+
+header button .quebusco{
+    color: #E3F2C1;
+    
+}
+
+header button .familia{
+    color: #E3F2C1;
+    
+}
+
+header button{
+    color: #ffffff;
+    padding: 40x 90px;
+    width: 130px;
+    outline: none;
+    border: 0px solid rgb(255, 255, 255);
+    height: 45px;
+    font-weight: 7px;
+    background-color: #212A3E;
+    bottom: 40%;
+    border-radius: 50px;
+    
+}
+
+
+.Imagen{
+    float: right;
+    height: 100vh;
+    width: 37%;
+    background-color: #E3F2C1;
+}
+
+.Imagen .fondo-emp{
+    
+    position: absolute;
+    height: 650px;
+    width: 500px;
+    right: 0%;
+    bottom: 0%;
+    
+}
+
+
+.SegundaPantalla{
+    height: 100vh;
+    width: 63%;
+    background-color: #F1F6F9;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    float: right;
+    text-align: center;
+    color: #1B9C85;
+    padding: 60px 0px;
+}
+
 .SegundaPantalla .SegundoTexto{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -99,52 +140,195 @@ header p{
     position: absolute;
     bottom: 15%;
     padding: 0 50px;
+    color: #212A3E;
 }
 
-header button{
-    padding: 10px 60px;
-    width: 100px;
-    outline: none;
-    border: 1px solid rgb(0, 0, 0);
-    height: 40px;
-    font-weight: 70px;
-    background-color: #00b4d8;
-    bottom: 30%;
+.SegundaPantalla .separador{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    text-align: center;
+    position: absolute;
+    bottom: 75%;
+    padding: 0 50px;
+    color: #212A3E;
 }
 
-.SegundaPantalla{
-    
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px 56px;
+    font-size: 2rem;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    transition: all 0.3s ease 0s;
+    color: #394867;
 }
 
-.container .emp{  
-height: 70px;
-width: 200px;
-right: 10%;
-bottom: 80%;
-z-index: 10;
-text-align: center;
+ul li:hover{
+    border-radius: 40px;
+    background-color: #212A3E;
+    color: #ffff;
 }
 
+.SegundaPantalla {
+    text-align: center;
+
+}
 .SegundaPantalla .Caracteristicas{
-    margin-bottom: 30px;
+    color: #394867;
+    margin-bottom: 60px;
     font-size: 3em;
     bottom: 90%;
     padding: 0 170px;
     text-align: center;
 }
 
+
 .Imagen2{
     float: left;
     height: 100vh;
     width: 37%;
     background-color: #90E0EF;
-
+    bottom: 2%;
 }
 
 .Imagen2 .Foto2{
-    
-    height: 618px;
+    height: auto;
     width: 500px;
     right: 0%;
     bottom: 0%;
 }
+
+.fila3 {
+        float: left;
+        height: 100vh;
+        width: 37%;
+        background-color: #212A3E;
+        font-family: 'Roboto', sans-serif;
+        color: #F1F6F9;
+}
+
+.fila3 .imagen3 {
+    object-fit: cover;
+    height: auto;
+    width: 500px;
+    right: 0%;
+    bottom: 0%;
+}
+
+.fila3 .textofila3{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 3em;
+    bottom: -2%;
+    padding: 0 170px;
+    text-align: center;
+}
+
+.fila3 .despueblo{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 2em;
+    bottom: -6%;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.fila3-2 {
+    float: left;
+    height: 50vh;
+    width: 63%;
+    background-color: #F1F6F9;
+}
+
+.fila3-2 .imagen4 {
+    object-fit: cover;
+    transform: rotate(0deg);
+    height: 100%;
+    width: 100%;
+    right: 0%;
+    bottom: 10%;
+}
+
+.fila3-3 {
+    float: left;
+    height: 50vh;
+    width: 63%;
+    background-color: #F1F6F9;
+}
+
+.fila3-3 .imagen5{
+    height: 100%;
+    width: 100%;
+    right: 0%;
+    bottom: 10%;
+}
+
+.fila4 {
+    float: right;
+    height: 100vh;
+    width: 33.3%;
+    background-color: #F1F6F9;
+    font-family: 'Roboto', sans-serif;
+    color: #212A3E;
+}
+
+.fila4 .imagen6 {
+object-fit: cover;
+height: auto;
+width: 450px;
+right: 0%;
+bottom: 0%;
+}
+
+.fila4 .textofila4{
+position: relative;
+margin-bottom: 30px;
+font-size: 3em;
+bottom: -2%;
+padding: 0 100px;
+text-align: center;
+}
+
+.fila4 .desamigos{
+position: relative;
+margin-bottom: 10px;
+font-size: 2em;
+bottom: -6%;
+padding: 0 40px;
+text-align: center;
+}
+
+.fila4-2 {
+float: right;
+height: 100vh;
+width: 33.3%;
+background-color: #F1F6F9;
+}
+
+.fila4-2 .imagen7 {
+object-fit: cover;
+transform: rotate(0deg);
+height: 100%;
+width: auto;
+right: 0%;
+bottom: 10%;
+}
+
+.fila4-3 {
+float: left;
+height: 100vh;
+width: 33.3%;
+background-color: #F1F6F9;
+}
+
+.fila4-3 .imagen8{
+object-fit: cover;
+height: 100%;
+width: 100.3%;
+right: 0%;
+bottom: 10%;
+}
+
