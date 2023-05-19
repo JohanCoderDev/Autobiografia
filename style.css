@@ -312,12 +312,13 @@ background-color: #F1F6F9;
 object-fit: cover;
 transform: rotate(0deg);
 height: 100%;
-width: auto;
+width: 100%;
 right: 0%;
 bottom: 10%;
 }
 
 .fila4-3 {
+    
 float: left;
 height: 100vh;
 width: 33.3%;
